@@ -13,8 +13,6 @@ public static void main(String[] args) {
     Gen<A> genA = new Gen<>(a);
     Gen<B> genB = new Gen<>(b);
     Gen<C> genC = new Gen<>(c);
-    Gen<D> genD = new Gen<>(d);
-    
     // Допустимые вызовы метода test
     test(genA);
     test(genB);
